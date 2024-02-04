@@ -1,0 +1,24 @@
+/*
+    Pallette
+
+    color1: #220901
+    color2: #621708
+    color3: #941b0c
+    color4: #bc3908
+    color5: #f6aa1c
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root{
+    --font01: 'Pacifico', cursive;
+    --font02: 'Arvo', serif;
+
+    --color01: #220901;
+    --color02: #621708;
+    --color03: #941b0c;
+    --color04: #bc3908;
+    --color05: #f6aa1c;
+}
