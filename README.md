@@ -5,7 +5,7 @@ Following the Odin Project's study map, learning flexbox and other things, a bas
 
 > ## Reference
 >
->- [Link for the Lesson](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+>- [Link for the Lesson]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://www.theodinproject.com/lessons/foundations-landing-page))
 >
 
 ## The prototype presented for reference
