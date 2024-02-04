@@ -57,8 +57,16 @@
 .header-nav-link{
     text-decoration: none;
     color: #E5E7EB;
+    transition: .2s ease-in-out;
+    padding: 0.7em;
+    border-radius: 1em;
 }
 
+.header-nav-link:hover{
+    background-color: var(--color05);
+    color: #220901;
+    text-decoration: underline;
+}
 /* header */
 
 /* presentation */
@@ -96,6 +104,13 @@
     border-radius: 1em;
     border: 1px solid #E5E7EB;
     outline: none;
+    transition: .2s ease-in-out;
+}
+
+.modal-button:hover{
+    background-color: var(--color05);
+    color: #220901;
+    border-color: var(--color05);
 }
 
 .presentation-image{
@@ -142,6 +157,16 @@
     border-radius: 2em;
 }
 
+.card-text{
+    text-align: center;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.name{
+    font-weight: 900;
+}
+
 /* Card Group */
 
 /* Quote */
@@ -151,6 +176,13 @@
     padding: 6em 12em;
     display: flex;
     flex-direction: column;
+}
+
+.quote-text{
+    font-family: var(--font01);
+    font-weight: 300;
+    word-spacing: 0.4em;
+    font-size: 1.4em;
 }
 
 .quote-name{
@@ -175,4 +207,22 @@
 
 .container-modal-info{
     width: 65%;
+}
+
+/* Container Modal */
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    gap: 1em;
+    background-color: var(--color01);
+    color: #E5E7EB;
+}
+
+.footer-creator-name{
+    margin-top: 2em;
+    color: var(--color05);
 }
