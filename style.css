@@ -22,3 +22,157 @@
     --color04: #bc3908;
     --color05: #f6aa1c;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font02);
+}
+
+/* header */
+
+.header{
+    display: flex;
+    padding: 2em 4em;
+    background-color: var(--color01);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: var(--color03);
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.header-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* header */
+
+/* presentation */
+
+.presentation{
+    display: flex;
+    background-color: var(--color01);
+    padding: 6em 6em;
+    gap: 4em;
+}
+
+.presentation-oppening{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.presentation-oppening-title{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.presentation-oppening-paragraph{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.modal-button{
+    width: 30%;
+    padding: 0.6em;
+    cursor: pointer;
+    background-color: var(--color04);
+    color: #E5E7EB;
+    border-radius: 1em;
+    border: 1px solid #E5E7EB;
+    outline: none;
+}
+
+.presentation-image{
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-image img{
+    max-width: 80%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.521);
+}
+
+/* presentation */
+
+/* Container */
+
+.container{
+    background-color: rgb(27, 25, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 6em 6em;
+    gap: 2em;
+    align-items: center;
+    color: var(--color05);
+}
+
+/* Container */
+
+/* Card Group */
+
+.card-group{
+    display: flex;
+    gap: 2em;
+}
+
+.card{
+    padding: 2em;
+    border: 2px solid black;
+    background-color: var(--color02);
+    color: var(--color05);
+}
+
+.card-image{
+    border-radius: 2em;
+}
+
+/* Card Group */
+
+/* Quote */
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    padding: 6em 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-name{
+    font-weight: bold;
+    align-self: flex-end;
+}
+/* Quote */
+
+/* Container Modal */
+
+.container-modal{
+    width: 100%;
+    background-color: var(--color02);
+    color: #E5E7EB;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.521);
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.container-modal-info{
+    width: 65%;
+}
